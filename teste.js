@@ -32,3 +32,13 @@ let nomes = ['Carlos', 'Magnum', 'Adilma', 'Camila', 'Thamyris', 'Magnum', 'Cami
       return acumulador
 }, {})
 console.log(contagem) 
+
+
+let numeros = [1, 3, 4, 1, 4, 5, 3, 5, 8, 9]
+  let numerosUnicos = numeros.reduce(function(acumulador, numeroAtual){
+    if(acumulador.includes(numeroAtual)){
+      acumulador.pop(numeroAtual)
+    }
+    return acumulador 
+  },[])
+  console.log(numerosUnicos)
