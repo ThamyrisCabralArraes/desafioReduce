@@ -31,4 +31,4 @@ let nomes = ['Carlos', 'Magnum', 'Adilma', 'Camila', 'Thamyris', 'Magnum', 'Cami
 }
       return acumulador
 }, {})
-console.log(contagem)
+console.log(contagem) 
